@@ -3,14 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Laboratory Page</title>
+    <title>Jhon Paolo A. Ponan | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
+    <header>
+        <h1>Jhon Paolo A. Ponan</h1>
+        <p>BS Information Technology · Web Developer in Training</p>
+    </header>
 
-    <h1 style="color: #2c3e50; text-align: center;">Hello, World!</h1>
-    <p style="font-size: 18px;">My name is <strong>[Jhon Paolo A. Ponan]</strong>.</p>
-    <p style="font-size: 18px;">My Student ID is <strong>[2411600080]</strong>.</p>
-    <p>This is my very first webpage served locally using XAMPP!</p>
+    <nav>
+        <a href="#about">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
+    <main>
+        
+        <section id="about" class="section section--about">
+            <span class="class-style">Introduction</span>
+            <h2>About Me</h2>
+            <p>Hi, I'm Paolo! I'm a 3rd year BS Information Technology student at 48111-ITE313, currently learning how to design and build websites from the ground up. I enjoy problem-solving, gaming, and exploring how design and code come together to create good user experiences. This page is part of my ongoing journey of learning HTML and CSS.</p>
+        </section>
+
+        <section id="skills" class="section section--skills">
+            <span class="class-style">What I Know</span>
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li class="skill-item">
+                    <span class="class-tag">HTML5</span>
+                    <p>Building semantic, accessible page structures from scratch.</p>
+                </li>
+                <li class="skill-item">
+                    <span class="class-tag">CSS3</span>
+                    <p>Styling layouts with the box model, flexbox, and color theory.</p>
+                </li>
+                <li class="skill-item">
+                    <span class="class-tag">Git &amp; GitHub</span>
+                    <p>Version control, committing, and pushing project changes.</p>
+                </li>
+                <li class="skill-item">
+                    <span class="class-tag">Problem Solving</span>
+                    <p>Breaking down requirements into working, testable code.</p>
+                </li>
+                <li class="skill-item">
+                    <span class="class-tag">Teamwork</span>
+                    <p>Collaborating on group projects and giving/receiving feedback.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="projects" class="section section--projects">
+            <span class="class-style">What I've Built</span>
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <article class="project-card">
+                    <h3>Laboratory Exercise 1</h3>
+                    <p>My very first HTML page - a simple document introducing basic structure and content.</p>
+                </article>
+                <article class="project-card">
+                    <h3>Personal Portfolio (this page!)</h3>
+                    <p>A multi-section site built with semantic HTML and a custom CSS color scheme.</p>
+                </article>
+                <article class="project-card">
+                    <h3>To-Do List App</h3>
+                    <p>A small planned project to practice JavaScript and DOM manipulation.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+   
+    <aside class="site-aside">
+        <h2>Quick Facts</h2>
+        <ul>
+            <li>Currently studying: BS Information Technology</li>
+            <li>Favorite subject: Web Development</li>
+            <li>Tools I use daily: VS Code, XAMPP, GitHub</li>
+        </ul>
+        <blockquote class="quote">
+            "The only way to do great work is to love what you do."
+        </blockquote>
+        <p class="fun-fact"><span class="class-tag">Fun fact:</span> I can pull off a 20 kills, 0 deaths game on mid lane in League of Legends</p>
+    </aside>
+
+    <footer class="site-footer">
+        <p> 2026 Jhon Paolo Ponan. All rights reserved.</p>
+        <p>Email: <a href="mailto:jhonpaoloponan@gmail.com">jhonpaoloponan@gmail.com</a></p>
+        <p class="updated">Last updated: August 11, 2026</p>
+    </footer>
 </body>
 </html>
