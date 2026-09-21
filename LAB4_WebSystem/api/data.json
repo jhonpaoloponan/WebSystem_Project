@@ -1,0 +1,74 @@
+[
+  {
+    "id": "PROD-001",
+    "name": "Wireless Ergonomic Mouse",
+    "category": "Peripherals",
+    "price": 2499,
+    "quantity": 45,
+    "reorderLevel": 10,
+    "status": "In Stock"
+  },
+  {
+    "id": "PROD-002",
+    "name": "Mechanical Gaming Keyboard",
+    "category": "Peripherals",
+    "price": 3999,
+    "quantity": 8,
+    "reorderLevel": 10,
+    "status": "Low Stock"
+  },
+  {
+    "id": "PROD-003",
+    "name": "27-Inch 4K QLED Monitor",
+    "category": "Displays",
+    "price": 36500,
+    "quantity": 12,
+    "reorderLevel": 5,
+    "status": "In Stock"
+  },
+  {
+    "id": "PROD-004",
+    "name": "USB-C Docking Station",
+    "category": "Accessories",
+    "price": 450,
+    "quantity": 3,
+    "reorderLevel": 5,
+    "status": "Low Stock"
+  },
+  {
+    "id": "PROD-005",
+    "name": "Noise-Canceling Headphones",
+    "category": "Audio",
+    "price": 5599,
+    "quantity": 0,
+    "reorderLevel": 5,
+    "status": "Out of Stock"
+  },
+  {
+    "id": "PROD-006",
+    "name": "HD Webcam 1080p",
+    "category": "Peripherals",
+    "price": 3000,
+    "quantity": 22,
+    "reorderLevel": 10,
+    "status": "In Stock"
+  },
+  {
+    "id": "PROD-007",
+    "name": "Hard Drive 1TB",
+    "category": "Storage",
+    "price": 2800,
+    "quantity": 15,
+    "reorderLevel": 5,
+    "status": "In Stock"
+  },
+  {
+    "id": "PROD-008",
+    "name": "Solid State Drive 500GB",
+    "category": "Storage",
+    "price": 3200,
+    "quantity": 20,
+    "reorderLevel": 5,
+    "status": "In Stock"
+  }
+]
